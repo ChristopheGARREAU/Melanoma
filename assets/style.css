@@ -1,0 +1,93 @@
+.bColor-bleuSanofi {
+    background-color: rgb(82, 92, 163);
+}
+.color-bleuSanofi {
+    color: rgb(82, 92, 163) ;
+}   
+
+.color-bleuSanofi-2 {
+    color: #2c8cff ;
+} 
+
+.bColor-bleuSanofi-3 {
+    background-color:#007bff;
+}
+.active{
+    color: black !important;
+}
+
+#_dash-app-content .nav-link {
+    
+    color:black !important;
+    font-size: 16px;
+}
+ 
+#_dash-app-content .active {
+    
+    color: white !important;
+    font-weight: 700;
+}
+
+
+@keyframes fadein {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0.5;
+    }
+}
+
+._dash-loading-callback {
+  font-family: sans-serif;
+  padding-top: 50px;
+  color: rgb(90, 90, 90);
+
+  /* The banner */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  cursor: progress;
+
+  opacity: 0;
+  background-color: rgb(250, 250, 250);
+  /* Delay animation by 1s to prevent flashing 
+     and smoothly transition the animation over 0.5s 
+   */
+  -moz-animation: fadein 0.5s ease-in 1s forwards; /* Firefox */
+  -webkit-animation: fadein 0.5s ease-in 1s forwards; /* Safari and Chrome */
+  -o-animation: fadein 0.5s ease-in 1s forwards; /* Opera */
+    animation: fadein 0.5s ease-in 1s forwards;
+}
+
+
+#table1, #table2, #table3, #selection  {
+    background-color:#FFFFFF;
+    padding: 1rem;
+    margin: auto;
+    margin-top: 20px;
+}
+
+body {
+    background-color: #f9f9f9;
+    color: #333333;
+    font-size: 15px;
+    margin: 0px;
+}
+
+.card {
+    text-align: center;
+    /* border: 50px; */
+    /* padding: 6px */
+}
+.card .card-title {
+    text-align: center;
+    padding: 2px
+}
+
+.card .card-body {
+    padding: 2px
+}
